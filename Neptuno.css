@@ -1,0 +1,94 @@
+body {
+    margin-top: 5%;
+    background-color: rgb(15, 0, 58);
+    color: silver;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+
+#volver {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#volver:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#siguiente {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    margin-left: 83%;
+    transition: background-color 0.3s ease;
+}
+
+#siguiente:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#titulo {
+    color: goldenrod;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#titulo2 {
+    color: goldenrod;
+    font-size: x-large;
+}
+
+#textoNeptuno1 {
+    width: 75%;
+}
+
+#fotoNeptuno1 {
+    text-align: right;
+    margin-right: 3%;
+    margin-top: -23%;
+}
+
+#textoNeptuno2 {
+    width: 75%;
+    margin-left: 20%;
+}
+
+#verrier {
+    float: left;
+    text-align: left;
+    margin-top: -20%;
+    margin-right: 3%;
+    border: 2px solid gray;
+    padding: 1%;
+}
+
+#fotoNeptuno2 {
+    float: right;
+    text-align: right;
+    margin-top: -24%;
+    margin-right: 3%;
+    border: 2px solid gray;
+    padding: 1%;
+}
+
+#textoNeptuno3 {
+    width: 70%;
+}
+
+#fotoNeptuno3 {
+    text-align: center;
+    border: 2px solid gray;
+    padding: 1%;
+    margin: 0 auto;
+    display: table;
+}

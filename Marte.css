@@ -1,0 +1,54 @@
+body {
+    margin-top: 5%;
+    background-color: rgb(15, 0, 58);
+    color: silver;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+
+#volver {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#volver:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#siguiente {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    margin-left: 83%;
+    transition: background-color 0.3s ease;
+}
+
+#siguiente:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#titulo {
+    color: goldenrod;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#textoMarte1 {
+    width: 70%;
+}
+
+#marte {
+    text-align: right;
+    margin-right: 5%;
+    margin-top: -22%;
+}
