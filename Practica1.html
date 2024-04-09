@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Práctica 1 LM </title>
+        <style>
+            #tabla1, #tr1, #tr2, #td1 {
+                font-family: sans-serif;
+            }
+            #tabla1, #tr1, #td1 {
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+                width: 75%;
+                height: 60px;
+            }
+            #td2 {
+                width: 5%;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            #td3 {
+                width: 25%;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            #td4 {
+                background-color: white;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            #td5 {
+                background-color: rgb(186, 245, 201);
+                font-weight: lighter;
+                color: black;
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+            #td6 {
+                border: 1px solid black;
+                border-collapse: collapse;
+                color: black;
+                font-weight: lighter;
+                background-color: white;
+                padding: 10px; 
+                padding-top: 1px;   
+            }
+            #td6:hover{
+            background-color: rgb(186, 245, 201);
+            transition: 0,1s;
+            opacity: 1;
+            }
+            tr:hover #td6,
+            tr:hover #td6 .far{
+                background-color: rgb(186, 245, 201);
+                transition: 0,1s;
+                opacity: 1;
+            }
+            #tr1 {
+                background-color: rgb(0, 128, 0);
+                font-weight: bold;
+                color: white;
+            }
+            #tr2 {
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="tabla1">
+            <tr id="tr1">
+                <td id="td1" style="text-align: center; "> Parecidos pero no iguales </td>
+            </tr>
+            <tr id="tr2">
+                <td id="td6" style="padding-top: 1.25%;"> Hay algunas aves que se pueden confundir por su aspecto pero si te fijas un poco 
+                verás que no son iguales y podrás diferenciarlas la proxima vez que te las cruces </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <p> <b>Pulsa </b> <a href="#Fin" id="Inicio"> <b>aquí</b> </a> <b>para ir al final de la página</b> </p>
+        <br>
+        <br>
+        <br>
+        <table id="tabla1" class="table table-hover">
+            <tr id="tr1">
+                <td>  </td>
+                <td id="td3"> pan </td>
+                <td id="td3"> Estornino Negro </td>
+            </tr>
+            <tr id="tr1">
+                <td id="td2"> Imágen </td>
+                <td id="td6"> <br><a href="https://www.seo.org/ave/mirlo-comun/" target="_blank"><img src="../Imagenes/Mirlo.JPG" alt="Mirlo" width="350px" height="290px"></a> <br> <br></td>
+                <td id="td6"> <br><a href="https://www.seo.org/ave/estornino-negro/" target="_blank"><img src="../Imagenes/Tordo.JPG" alt="Tordo" width="350px" height="290px"></a> <br> <br></td>
+            </tr>
+            <tr id="tr1">
+                <td id="td2"> Nombre científico </td>
+                <td id="td5"> <b>Turdus merula</b> </td>
+                <td id="td5"> <b>Sturnus unicolor</b> </td>
+            </tr>
+            <tr id="tr1">
+                <td id="td2"> Descipción </td>
+                <td id="td6"> Túrdido de mediano tamaño y con aspecto muy característico. De tonos uniformes y
+                oscuros, el macho luce color negro, con el pico y el anillo ocular anaranjados, mientras
+                que la hembra es marrón oscura, con el pico amarillento o parduzco. Exhibe un vuelo
+                ágil y directo, frecuentemente a baja altura, entre matorrales y zonas de vegetación
+                enmarañada. Posado en el suelo, puede andar o saltar, y cuando se para muestra una
+                pose muy erguida. </td>
+                <td id="td6"> Esta ave posee tamaño mediano, aspecto compacto, patas cortas y fuertes, y pico
+                puntiagudo. Luce una coloración uniformemente negra, con ciertos brillos verdes y
+                púrpuras, pero sin motas. Tiene el pico amarillo en verano y oscuro en invierno. Ambos
+                sexos resultan similares, y los jóvenes son uniformemente pardos. Aunque se parece al
+                mirlo común, el estornino se desplaza más erguido, andando y no a saltos. Presenta un
+                vuelo rápido y directo. </td>
+            </tr>
+            <tr id="tr1">
+                <td id="td2"> Canto </td>
+                <td id="td5"> Aflautado y melódico, resulta muy agradable y melancólico. Consiste en una larga
+                sucesión de estrofas breves y variadas, con un típico final agudo. Esta es una de las aves
+                que más tempranamente comienzan a cantar, a veces ya desde finales del invierno.
+                Tiene un reclamo de alarma particular, compuesto por una sucesión de notas agudas,
+                emitidas de forma acelerada y subiendo de tono. Cuando se levanta espantado, lanza
+                un cacareo muy característico. </td>
+                <td id="td5"> Este pájaro emite un canto prolongado, con una amplia variedad de silbidos, chasquidos
+                e imitaciones muy conseguidas del canto de multitud de aves. </td>
+            </tr>
+            <tr id="tr1">
+                <td id="td2"> Permanencia </td>
+                <td id="td6"> Residente en la península durante todo el año. </td>
+                <td id="td6"> Residente en la península durante todo el año. </td>
+            </tr>
+            <tr id="tr1">
+                <td id="td2"> Hábitat </td>
+                <td id="td5"> Zonas de arbolado y matorrales. Se ha adaptado a los parques y jardines de las ciudades
+                con éxito. </td>
+                <td id="td5"> Presente en una amplia variedad de hábitats, desde bosques abiertos hasta zonas
+                esteparias, con gran preferencia por entornos humanizados; de hecho, es una de las
+                aves más representativas de muchos de nuestros pueblos. </td>
+            </tr>
+            <tr id="tr1">
+                <td id="td2"> Cómo diferenciarlos </td>
+                <td id="td6"> Generalmente se le ve solo, ocasionalmente en pareja. Ligeramente mayor que el tordo
+                y con la cola más larga. Los machos tienen un tono negro brillante con pico naranjaamarillento, mientras que las hembras y jóvenes presentan tonos gastados de negro o
+                pardo. Plumaje siempre de aspecto liso. Vuela tramos cortos y generalmente a baja
+                altura entre la vegetación. Anda o salta en el suelo. </td>
+                <td id="td6"> Ave gregaria que forma grandes grupos. En ocasiones sincronizan su vuelo para hacer
+                llamativas figuras dinámicas en el aire. Es levemente menor en tamaño y carece de anillo
+                orbicular. Su plumaje es negro en ambos sexos y puede presentar tonos irisados cuando
+                la luz incide directamente sobre él. No es inusual apreciar plumas desfiladas (en abanico)
+                en su silueta. Su vuelo cubre más distancia y a más altura. Camina en el suelo. </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <p> <b>Pulsa</b> <a href="#Inicio" id="Fin"> <b>aquí</b> </a> <b>para ir al inicio de la página</b> </p>
+    </body>
+
+</html>
