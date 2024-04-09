@@ -1,8 +1,0 @@
-#bosses {
-    padding-top: 3%;
-    padding-left: 2%;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2%;
-}
