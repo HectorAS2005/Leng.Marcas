@@ -1,0 +1,32 @@
+body {
+    margin-top: 5%;
+    background-color: rgb(15, 0, 58);
+    color: silver;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+
+#volver {
+    text-decoration: none;
+    color: silver;
+}
+
+#siguiente {
+    text-decoration: none;
+    color: silver;
+    margin-left: 83%;
+}
+#titulo {
+    color: goldenrod;
+    text-align: center;
+}
+
+#sistemaSolar {
+    margin-top: 3%;
+    margin-left: 45%;  
+}
+
+#textoSistSolar1 {
+    margin-top: -32%;
+    width: 40%;
+}
