@@ -1,0 +1,11 @@
+.presentacion {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 3%;
+}
+
+#arte5 {
+    width: 28%;
+    padding-right: 10%;
+    padding-top: 3%;
+}

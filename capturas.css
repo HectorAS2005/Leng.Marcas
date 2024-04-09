@@ -1,0 +1,28 @@
+#imagenes1 {
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+}
+
+#captura1, #captura2, #captura3, #captura4, #captura5, #captura6, #captura7, #captura8, #captura9 {
+    width: 100%;
+}
+
+#imagenes2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+}
+
+#captura10, #captura11, #captura12, #captura13, #captura14, #captura15, #captura16, #captura17, #captura18 {
+    width: 100%;
+}
