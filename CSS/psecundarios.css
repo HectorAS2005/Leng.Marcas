@@ -1,0 +1,76 @@
+#shanks {
+    font-size: larger;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65%;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+#shanks-actual {
+    width: 20%;
+    margin-left: 1350px;
+    margin-top: -250px;
+}
+
+#barbanegra {
+    font-size: larger;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 66%;
+    text-align: right;
+    margin-left: 26%;
+    margin-top: 3%;
+}
+
+#barbanegra-debut {
+    width: 20%;
+    margin-top: -620px;
+    margin-left: 1cm;
+}
+
+#ace {
+    font-size: larger;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65%;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+#ace-debut {
+    width: 15%;
+    margin-left: 1350px;
+    margin-top: -700px;
+}
+
+#sabo {
+    font-size: larger;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 66%;
+    text-align: right;
+    margin-left: 26%;
+    margin-top: 3%;
+}
+
+#sabo-actual {
+    width: 11%;
+    margin-top: -620px;
+    margin-left: 1cm;
+}
+
+#roger {
+    font-size: larger;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65%;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+#roger-actual {
+    width: 15%;
+    margin-left: 1350px;
+    margin-top: -250px;
+}
