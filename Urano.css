@@ -1,0 +1,82 @@
+body {
+    margin-top: 5%;
+    background-color: rgb(15, 0, 58);
+    color: silver;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+
+#volver {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#volver:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#siguiente {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    margin-left: 83%;
+    transition: background-color 0.3s ease;
+}
+
+#siguiente:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#titulo {
+    color: goldenrod;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#titulo2 {
+    color: goldenrod;
+    font-size: x-large;
+}
+
+#textoUrano1 {
+    width: 75%;
+}
+
+#fotoUrano1 {
+    text-align: right;
+    margin-right: 3%;
+    margin-top: -21%;
+}
+
+#cita {
+    border-left: 5px solid silver;
+    padding-left: 2%;
+    width: 50%;
+}
+
+#fotoUrano2 {
+    float: right;
+    text-align: right;
+    margin-top: -38%;
+    margin-right: 3%;
+    border: 2px solid gray;
+    padding: 1%;
+}
+
+#fotoUrano3 {
+    text-align: center;
+    border: 2px solid gray;
+    padding: 1%;
+    margin: 0 auto;
+    display: table;
+}

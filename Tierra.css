@@ -1,0 +1,84 @@
+body {
+    margin-top: 5%;
+    background-color: rgb(15, 0, 58);
+    color: silver;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+
+#volver {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#volver:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#siguiente {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    margin-left: 83%;
+    transition: background-color 0.3s ease;
+}
+
+#siguiente:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#titulo {
+    color: goldenrod;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#textoTierra1 {
+    width: 70%;
+}
+
+#fotoTierra1 {
+    position: absolute;
+    margin-top: -0%;
+    margin-left: 70%;
+}
+
+#colision {
+    margin-top: -1%;
+}
+
+#textoTierra2 {
+    position:inherit;
+    text-align: right;
+    width: 60%;
+    margin-left: 36%;
+    margin-top: -15%;
+}
+
+#colisionCaja {
+    text-align: center;
+    margin-right: 65%;
+    border: 2px solid gray;
+    padding-top: 1%;
+}
+
+#textoTierra3 {
+    width: 75%;
+}
+
+#histVida{
+    padding: 2px;
+    margin-left: 80%;
+    margin-top: -25%;
+    border: 2px solid gray;
+}
